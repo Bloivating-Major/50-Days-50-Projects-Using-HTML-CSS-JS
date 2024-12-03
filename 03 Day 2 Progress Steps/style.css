@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --line-border-fill : #2563EB;
+    --line-border-empty :  #4c4b4b;
+    --background-dark : #1A1A1A;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-dark);
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+.progress-container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 600px;
+    margin-bottom: 3em;
+}
+
+.progress-container::before{
+    content: '';
+    background-color: var(--line-border-empty);
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1000;
+    transition: 0.4s ease;
+}
+
+.progress{
+    background-color: var(--line-border-fill);
+    position: absolute;
+    height: 4px;
+    width: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1000;
+    transition: 0.4s ease;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--background-dark);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid var(--line-border-empty);
+    transition: 0.4s ease;
+}
+
+.circle.active{
+    border: 3px solid var(--line-border-fill);
+}
+
+#btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    background-color: var(--line-border-fill);
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin: 0.5em;
+    font-size: 1.2em;
+}
+
+.btn:active{
+    transform: scale(.98);
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.btn.disabled{
+    background-color: var(--line-border-empty);
+    cursor: not-allowed;
+} 
+
+
