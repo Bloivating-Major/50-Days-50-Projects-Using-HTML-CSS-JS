@@ -5,7 +5,7 @@ Expanding Cards is a visually captivating and interactive project that displays 
 ---
 
 ## 🎨 **Live Demo**
-[View Live Project](#) 
+[View Live Project](https://bloivating-major.github.io/50-Projects-Using-HTML-CSS-JS/02%20Day%201%20Expanding%20Cards/index.html) 
 
 ---
 
@@ -89,17 +89,6 @@ The project uses a media query to adapt to small screens by hiding extra panels 
 
 ---
 
-## 🎉 **Screenshots**
-1. **Default View**:
-![Default View](#)
-
-2. **Expanded Panel**:
-![Expanded Panel](#)
-
-*(Replace # with actual screenshot URLs)*
-
----
-
 ## 🛠️ **How to Run**
 1. Clone the repository.
 2. Open `index.html` in any modern web browser.
@@ -109,7 +98,7 @@ The project uses a media query to adapt to small screens by hiding extra panels 
 
 ## 🔗 **Links**
 - [GitHub Repository](https://github.com/Bloivating-Major/50-Projects-Using-HTML-CSS-JS) 
-- [Live Demo](#) 
+- [Live Demo](https://bloivating-major.github.io/50-Projects-Using-HTML-CSS-JS/02%20Day%201%20Expanding%20Cards/index.html) 
 
 ---
 
