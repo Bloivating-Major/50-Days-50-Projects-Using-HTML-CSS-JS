@@ -10,7 +10,7 @@ Welcome to the **50 Days, 50 Projects** series! Each day features a new project 
 | 1       | Expanding Cards       | Interactive cards that expand on click.      | [Live Demo](https://bloivating-major.github.io/50-Projects-Using-HTML-CSS-JS/02%20Day%201%20Expanding%20Cards/index.html)          | [Source Code](./02%20Day%201%20Expanding%20Cards/Readme.md) |
 | 2       | Progress Steps       | Progressing Steps that Makes progress on click.              | [Live Demo](https://bloivating-major.github.io/50-Projects-Using-HTML-CSS-JS/03%20Day%202%20Progress%20Steps/)          | [Source Code](./03%20Day%202%20Progress%20Steps/Readme.md)                                             |
 | 3       | Rotating Navigation       | Rotating Navigation.             | [Live Demo](https://bloivating-major.github.io/50-Projects-Using-HTML-CSS-JS/04%20Day%203%20Rotating%20Navigation%20Animation)          | [Source Code](./04%20Day%203%20Rotating%20Navigation%20Animation/Readme.md)                                             |
-| 4       | BirthDay Wishing App      | Animations with JavaScript.             | [Live Demo](https://bloivating-major.github.io/50-Projects-Using-HTML-CSS-JS/04%20Day%203%20Rotating%20Navigation%20Animation)          | [Source Code](./05%20Day%204%20Birthday%20Application/Readme.md)                                             |
+| 4       | BirthDay Wishing App      | Animations with JavaScript.             | [Live Demo](https://bloivating-major.github.io/50-Projects-Using-HTML-CSS-JS/05%20Day%204%20Birthday%20Application/index.html)          | [Source Code](./05%20Day%204%20Birthday%20Application/Readme.md)                                             |
 
 
 ---
