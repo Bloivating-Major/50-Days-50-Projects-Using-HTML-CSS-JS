@@ -9,6 +9,7 @@ Welcome to the **50 Days, 50 Projects** series! Each day features a new project 
 |---------|-----------------------|----------------------------------------------|-------------------------|-------------------------------------------------------------|
 | 1       | Expanding Cards       | Interactive cards that expand on click.      | [Live Demo](https://bloivating-major.github.io/50-Projects-Using-HTML-CSS-JS/02%20Day%201%20Expanding%20Cards/index.html)          | [Source Code](https://github.com/Bloivating-Major/50-Projects-Using-HTML-CSS-JS/tree/main/ExpandingCards) |
 | 2       | Progress Steps       | Progressing Steps that Makes progress on click.              | [Live Demo](https://bloivating-major.github.io/50-Projects-Using-HTML-CSS-JS/03%20Day%202%20Progress%20Steps/)          | [Source Code](https://github.com/Bloivating-Major/50-Projects-Using-HTML-CSS-JS/tree/main/03%20Day%202%20Progress%20Steps)                                             |
+| 3       | Rotating Navigation       | Rotating Navigation.             | [Live Demo](https://bloivating-major.github.io/50-Projects-Using-HTML-CSS-JS/03%20Day%202%20Progress%20Steps/)          | [Source Code](https://github.com/Bloivating-Major/50-Projects-Using-HTML-CSS-JS/tree/main/03%20Day%202%20Progress%20Steps)                                             |
 
 
 ---
