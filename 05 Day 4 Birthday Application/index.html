@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="welcome-screen" class="screen">
+    <h1 class="main-title">🎉 Happy Birthday! 🎉</h1>
+    <h1 class="main-title">💕 Dear Jolly Ji 💕</h1>
+    <p class="sub-title">Get ready for a magical surprise!</p>
+    <button id="start-button">Begin</button>
+  </div>
+
+  <div id="gift-screen" class="screen hidden">
+    <div id="countdown">5</div>
+    <div id="gift-box" class="gift">
+      <div class="lid"></div>
+      <div class="box"></div>
+    </div>
+    <p>Click the box to open your surprise!</p>
+    <div id="balloons"></div>
+  </div>
+
+  <div id="wish-screen" class="screen hidden">
+    <div class="card">
+      <img src="./assets/profilepic.jpg" alt="">
+      <h2>Happy Birthday!</h2>
+      <h2>Dear Jolly Ji ✨</h2>
+      <p>You’re amazing, and I hope your day is filled with love, laughter, and joy! 🎉</p>
+      <p id="quote">"Count your age by friends, not years."</p>
+      <button id="replay-button">Replay</button>
+    </div>
+    <div id="fireworks"></div>
+  </div>
+
+  <audio id="birthday-music" src="./assets/happy-birthday-lofi-version-222774.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
