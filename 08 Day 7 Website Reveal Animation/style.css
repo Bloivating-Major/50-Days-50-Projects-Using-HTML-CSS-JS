@@ -1,3 +1,13 @@
+@font-face{
+    font-family : MORESBY;
+    src : url(./assets/Moresby.ttf);
+}
+@font-face{
+    font-family : NeueMontreall;
+    src : url(./assets/NeueMontreal-Medium.otf);
+}
+
+
 *{
 margin: 0;
 padding: 0;
@@ -61,7 +71,7 @@ background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Moresby";
+    font-family: MORESBY;
 }
 
 .container {
@@ -71,7 +81,7 @@ background-color: white;
     width: 100%;
     overflow: hidden;
     z-index: 1;
-    font-family: "Neue Montreal";
+    font-family: NeueMontreall;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
