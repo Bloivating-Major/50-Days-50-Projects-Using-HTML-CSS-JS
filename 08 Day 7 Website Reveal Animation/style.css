@@ -1,0 +1,125 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* font-family: GILROY; */
+}
+html,body{ 
+width: 100%;
+height: 100%;
+background-color: white;
+}
+
+.loader{
+    width: 100vw;
+    height: 100vh;
+}
+
+.loader-clip {
+    position:  absolute;
+    width: 100vw;
+    height: 33.3vh;
+    overflow: clip;
+    z-index: 1000;
+}
+
+.clip-top{
+    top: 0;
+    clip-path: inset(0 0 0 0);
+    background-color: black;
+}
+
+.clip-bottom{
+    bottom: 0;
+    clip-path: inset(0 0 0 0);
+    background-color: black;
+}
+
+.clip-center{
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    height: 33.3vh;
+    top: 33.3vh;
+}
+
+.marquee{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200vw;
+    color: rgb(255, 255, 255);
+    mix-blend-mode: difference;
+    font-size: 11vw;
+    text-transform: uppercase;
+}
+
+.marquee-container{
+    width: 100%;
+    padding-top: 0.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Moresby";
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    font-family: "Neue Montreal";
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.container .nav, .container .footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2em 4em;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items a:not(:last-child){
+    padding-right: 4em;
+}
+
+@media (max-width: 480px){
+
+    .container .nav .logo{
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 900;
+    }
+
+    .container .nav .nav-items{
+        display: none;
+    }
+
+    .marquee{
+        font-size: 14vw;
+    }
+
+    .container .footer{
+        flex-direction: column;
+        align-items: center;
+        font-size: 1em;
+        gap: 1.5em;
+        font-weight: bold;
+        padding: 1em 1em;
+    }
+   
+}
